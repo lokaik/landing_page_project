@@ -1,0 +1,69 @@
+@import url('https://googleapis.com');
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    gap: 18px;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    justify-content: center;
+    gap: 16px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.hero .main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+button {
+    margin-top: 5px;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.place_holder {
+    align-self: center;
+    background-color: grey;
+    padding: 75px;
+}
